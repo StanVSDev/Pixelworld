@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/DeadCells.css">
+    <link rel="Shortcut icon" href="/IMG/ICON/PIXEL_ICON.jpg">
+    <script src="/JAVA/jsquery.js"></script>
+    <script src="/JAVA/jquery.dataTables.min.js"></script>
+    <title>Dead Cells</title>
+</head>
+<body>
+    <div class="loader">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(window).load(function() {
+                $(".loader").fadeOut("slow");
+            });
+        </script>
+    </div>
+        <header class="header">
+            <div class="container">
+            <div class="btn-menu">
+                <label for="btn-menu">☰</label>
+            </div>
+                <div class="logo">
+                    <h1>Welcome to Pixelworld</h1>
+                </div>
+                <img style="width:150px; margin-left: 240px; margin-top: 5px;" src="/IMG/LOGO/Logo_2-removebg-preview.png" alt="Pixelworld">
+                <nav class="menu">
+                    <a href="/HTML/Pixelworld.html">Inicio</a>
+				    <a href="#">PixelArts</a>
+				    <a href="/HTML/Game_page.html">Pixel Games</a>
+				    <a href="mailto:brandonstanlyv@gmail.com">Contactanos!</a><div><br><br><br></div>
+                </nav>
+            </div>
+        </header>
+        <div class="capa"></div>
+    <input type="checkbox" id="btn-menu">
+    <div class="container-menu">
+        <div class="cont-menu">
+            <label for="btn-menu">X</label>
+            <nav>
+                <img style="width:300px; margin-left: -20px; margin-top: -50px" src="/IMG/LOGO/IMG_0672.png" alt="">
+                <a href="/HTML/Pixelworld.html">Inicio</a>
+                <a href="#">Cuenta</a>
+                <a href="/HTML/Game_page.html">Pixel Games</a>
+                <a href="#">PixelArts</a>
+                <a href="/HTML/Login.html">Cerrar sesion</a>
+                <a href="mailto:brandonstanlyv@gmail.com">Enviar comentarios</a>
+                <a href="https://www.facebook.com/bradonstanlyventura/about" target="_blank"><img width="30px" src="/IMG/LOGO/Facebook_logo.png" alt=""> Facebook</a>
+                <a href="https://twitter.com/TeamFocking" target="_blank"><img width="30px" src="/IMG/LOGO/Twitter_logo.png" alt=""> Twitter</a>
+            </nav>
+        </div>
+    </div>
+    <div class="contenido">
+        <div class="regre">
+            <a href="/HTML/Game_page.html"><img src="https://img.icons8.com/ios-filled/50/000000/long-arrow-left.png"/></a>
+        </div>
+        <p style=" border-left: #343c7c solid 5px;">Dead Cells</p>
+        <div class="game">
+            <div id="Display">
+                <div class="carrocel" id="carrocel-1">
+                    <div class="Play" id="Play-1">
+                        <video width="570px" autoplay="autoplay" controls="controls">
+                            <source src="/IMG/Game_Display/DeadCells/DeadCells-2.webm" type="video/webm">
+                        </video>
+                    </div>
+                    <div class="flechas" id="flechas-1">
+                        <a href="#carrocel-7"><i>🢀</i></a>
+                        <a href="#carrocel-2"><i>🢂</i></a>
+                    </div>
+                </div><br>
+                <div class="carrocel" id="carrocel-2">
+                    <div class="Play" id="Play-2">
+                        <video width="570px" controls="controls">
+                            <source src="/IMG/Game_Display/DeadCells/DeadCells-1.webm" type="video/webm">
+                        </video>
+                    </div>
+                    <div class="flechas" id="flechas-2">
+                        <a href="#carrocel-1"><i>🢀</i></a>
+                        <a href="#carrocel-3"><i>🢂</i></a>
+                    </div>
+                </div><br>
+                <div class="carrocel" id="carrocel-3">
+                    <div class="Play" id="Play-3">
+                        <video width="570px" controls="controls">
+                            <source src="/IMG/Game_Display/DeadCells/DeadCells.webm" type="video/webm">
+                        </video>
+                    </div>
+                    <div class="flechas" id="flechas-3">
+                        <a href="#carrocel-2"><i>🢀</i></a>
+                        <a href="#carrocel-4"><i>🢂</i></a>
+                    </div>
+                </div><br>
+                <div class="carrocel" id="carrocel-4">
+                    <div class="Play" id="Play-4">
+                        <img width="578px" src="/IMG/Game_Display/DeadCells/DeadCells-img1.jpg" alt="">
+                    </div>
+                    <div class="flechas" id="flechas-4">
+                        <a href="#carrocel-3"><i>🢀</i></a>
+                        <a href="#carrocel-5"><i>🢂</i></a>
+                    </div>
+                </div><br>
+                <div class="carrocel" id="carrocel-5">
+                    <div class="Play" id="Play-5">
+                        <img width="570px" src="/IMG/Game_Display/DeadCells/DeadCells-img2.jpg" alt="">
+                    </div>
+                    <div class="flechas" id="flechas-5">
+                        <a href="#carrocel-4"><i>🢀</i></a>
+                        <a href="#carrocel-6"><i>🢂</i></a>
+                    </div>
+                </div><br>
+                <div class="carrocel" id="carrocel-6">
+                    <div class="Play" id="Play-6">
+                        <img width="578px" src="/IMG/Game_Display/DeadCells/DeadCells-img3.jpg" alt="">
+                    </div>
+                    <div class="flechas" id="flechas-6">
+                        <a href="#carrocel-5"><i>🢀</i></a>
+                        <a href="#carrocel-7"><i>🢂</i></a>
+                    </div>
+                </div><br>
+                <div class="carrocel" id="carrocel-7">
+                    <div class="Play" id="Play-7">
+                        <img width="578px" src="/IMG/Game_Display/DeadCells/DeadCells-img4.jpg" alt="">
+                    </div>
+                    <div class="flechas" id="flechas-7">
+                        <a href="#carrocel-6"><i>🢀</i></a>
+                        <a href="#carrocel-1"><i>🢂</i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="cont-info">
+            <b><p style="font-size: 20px; margin-left: 50px;">ACERCA DE ESTE JUEGO</p></b><br>
+            <img style="margin-left: 50px;" src="/IMG/Game_Display/DeadCells/Remparts-(short).jpg" alt="">
+            <b><p style="font-size: 18px; margin-left: 50px; color: #343c7c;">Roguelite? Metroidvania? Roguevania!</p></b>
+            <p style="font-size: 18px; margin-left: 50px;">¿Creciste con los juegos de tipo roguelike, fuiste testigo de los 
+                juegos roguelite y hasta de los roguelite-lite? Pues te presentamos nuestro juego de estilo roguevania, el hijo 
+                ilegítimo de un roguelite moderno (Rogue Legacy, Binding of Isaac, Enter the Gungeon, Spelunky, etc.) y un 
+                metroidvania de la vieja escuela (Castlevania: SotN y similares).</p><br>
+            <img style="margin-left: 50px;" src="/IMG/Game_Display/DeadCells/Graveyard_-_Copy.jpg" alt="">
+            <b><p style="font-size: 20px; margin-left: 50px; color: #343c7c;">Características:</p></b><br>
+            <ul style="margin-left: 50px;">
+                <li>RogueVania: la exploración de un mundo interconectado con la rejugabilidad de un juego roguelite y la 
+                    adrenalina que produce la amenaza de la muerte permanente</li><br>
+                <li>Acción en 2D de tipo Dark Souls: combates duros pero justos, más de 50 armas y hechizos con un sistema de 
+                    juego exclusivo y, por supuesto, la tirada de emergencia para salir de apuros.</li><br>
+                <li>Progresión no lineal: ¿alcantarillas, osario o murallas? Una vez desbloqueadas, con las habilidades especiales 
+                    permanentes podrás acceder a nuevas rutas para alcanzar tu objetivo. Opta por el camino que mejor se ajuste a tu 
+                    estilo de juego o simplemente a tu estado de ánimo.</li><br>
+                <li>Exploración: salas secretas, pasadizos ocultos, paisajes encantadores... Tómate un momento para pasear por las 
+                    torres y respirar ese aire fresco empapado de bruma marina.</li><br>
+            </ul>
+            <p style="font-size: 18px; margin-left: 50px;">Los niveles interconectados y el desbloqueo progresivo del acceso a la isla 
+                te proporcionan un auténtico incentivo para explorar tus alrededores. Además, súmale un grado de evolución para tu personaje y 
+                las mejoras de armas permanentes para tener claro lo que Dead Cells ha tomado prestado del largo catálogo de metroidvanias que 
+                lo preceden.</p><br>
+            <p style="font-size: 18px; margin-left: 50px;">Eso sí, ¡lo más importante será tu habilidad como jugador! Los juegos de tipo roguelite 
+                consisten en mejorar constantemente hasta que lo que antes era un obstáculo insalvable se convierte en un paseo militar. Los combates implacables, 
+                junto con la ausencia de cualquier tipo de red de seguridad, hace que vivas una aventura adrenalínica cada vez que juegas. Además, su rejugabilidad 
+                no tiene rival.</p><br>
+            <img style="margin-left: 50px;" src="/IMG/Game_Display/DeadCells/Black-Bridge-Ravens_-_Copy.jpg" alt=""><br><br>
+                <div class="requisitos">
+                    <b><p>Requisitos</p></b>
+                    <p>Minimos</p>
+                    <ul>
+                        <li>SO: Windows 7+</li><br>
+                        <li>Procesador: Intel i5+</li><br>
+                        <li>Memoria: 2 GB de RAM</li><br>
+                        <li>Gráficos: Nvidia 450 GTS / Radeon HD 5750 o mejores</li><br>
+                        <li>Almacenamiento: 500 MB de espacio disponible</li><br>
+                        <li>Notas adicionales: DirectX 9.1+ or OpenGL 3.2+</li><br>
+                    </ul>
+                </div>
+                <div class="requisitos-2">
+                    <b><p>Requisitos</p></b>
+                    <p>Recomendados</p>
+                    <ul>
+                        <li>SO: Windows 7+</li><br>
+                        <li>Procesador: Intel i5+</li><br>
+                        <li>Memoria: 4 GB de RAM</li><br>
+                        <li>Gráficos: Nvidia GTX 460 / Radeon HD 7800 o mejores</li><br>
+                        <li>Almacenamiento: 500 MB de espacio disponible</li><br>
+                        <li>Notas adicionales: DirectX 9.1+ or OpenGL 3.2+</li><br>
+                    </ul>
+                </div><br><br><br><br><br>
+        </div>
+    </div>
+    <div class="info-game">
+        <img width="380px" src="/IMG/Game_Display/DeadCells/DeadCells-header.jpg" alt="">
+        <p>Dead Cells es un juego de acción de plataformas de estilo roguelite e inspirado en juegos tipo 
+            metroidvania. Explorarás un castillo en constante cambio y expansión, si es que logras abrirte 
+            paso contra los guardianes en los combates 2D de estilo Dark Souls. No hay puntos de control: la cosa</p><br>
+            <a href="https://exe.io/KO3q7f" target="_blank"><input type="button" value="DESCARGAR"></a>
+    </div>
+    <br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br>
+    <div class="Copy">&reg;Pixelworld &copy;2022 Stanvs_Dev</div> 
+</body>
+</html>

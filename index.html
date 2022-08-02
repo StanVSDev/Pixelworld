@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixelworld</title>
+    <link rel="Shortcut icon" href="IMG/ICON/PIXEL_ICON.jpg">
+    <link rel="stylesheet" href="/CSS/Index.css">
+</head>
+<body>
+    <div class="loader">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(window).load(function() {
+                $(".loader").fadeOut("slow");
+            });
+        </script>
+    </div>
+    <div><center><img style="width: 300px; margin-bottom: 0; margin-top: 25px;" src="IMG/LOGO/IMG_0672.png" alt=""></center></div>
+    <div class="registro">
+        <h5>Registrate</h5>
+        <p class="men">Ingresa como invitado, aun no esta habilitada la opcion de registrarse :D</p>
+        <br><br>
+        <input class="controls" type="text" name="NUsuario" value="" placeholder="Nombre de Usuario">
+        <input class="controls" type="text" name="ConUsuario" value="" placeholder="Confirme su nombre de Usuario">
+        <input class="controls" type="password" name="Contraseña" value="" placeholder="Contraseña">
+        <input class="controls" type="password" name="ConContraseña" value="" placeholder="Confirme su Contraseña">
+        <a href="/HTML/Login.html"><input class="buttons" type="submit" name="boton" value="Registrarse"></a>
+        <p>
+            <a href="/HTML/Login.html">¿Ya tienes una cuenta?</a>
+            <br>
+            <br>
+            <a style="font-size:15px;" href="/HTML/Pixelworld.html">Continuar como Invitado</a>
+        </p>
+    </div>
+</body>
+</html>
